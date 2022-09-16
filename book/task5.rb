@@ -14,5 +14,12 @@ loop do
         exit
     else
         puts 'Не верно..'
+       if ans < x
+        puts 'Искомое число больше'
+        puts x        
+       elsif ans > x
+        puts 'Искомое число меньше'
+        puts x
+       end
     end    
 end
